@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>PrtcMe</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+
+    <!-- Bootstrap Core CSS -->
+    <link href="styles/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="styles/stylish-portfolio.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="styles/form.css" rel="stylesheet" >
+    <link href="styles/style.css" rel="stylesheet">
+    <link href="styles/portfolio.css" rel="stylesheet">
+    <link href="styles/scrolling-nav.css" rel="stylesheet">
+    <link href="styles/slider.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-static-top" role="navigation" style="z-index:10;width:100%;position:-webkit-sticky;position:sticky;top:0;background-color:#baa963;padding:10px; border:none">
+      <div class="container">
+          <div class="navbar-header">
+            <div class="container">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+              </div>
+          </div>
+          <div class="collapse navbar-collapse text-center" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav" style="width:100%;">
+                <li style="width:20%"><a class="navbar-link" href=""><img width="50%" src="img/lucia-logo.png"/></a></li>
+                <!-- <li style="width:20%; margin-top:10px;"><a class="navbar-link" href="#about">About</a></li>
+                <li style="width:20%; margin-top:10px;"><a class="navbar-link" href="#cx-stories">CX Stories</a></li>
+                <li style="width:20%; margin-top:10px;"><a class="navbar-link" href="#support-stories">Support Stories</a></li>
+                <li style="width:20%; margin-top:10px;"><a class="navbar-link" href="#contact">Contact</a></li> -->
+              </ul>
+          </div>
+      </div>
+    </nav>
+
+    <section id="coo-stories" class="about" style="margin:0px 25px 0px 25px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-md-offset-1">
+                  <h1>A marketplace for women's safety devices.</h1>
+                  <p class="lead">Stay safe with our awesome products.</p>
+                </div>
+                <div class="col-md-6 col-md-offset-1">
+                  <img width="50%" src="img/lucia-logo.png"/>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="margin:0px 25px 50px 25px">
+        <div class="container">
+
+          <div class="row">
+              <div class="col-lg-6 col-lg-offset-3">
+                <h2 style="font-size:2.5em; font-weight:600; color:#baa963">About PrtctMe</h2><br>
+              </div>
+          </div>
+
+          <div class="row">
+              <div class="col-lg-6 col-lg-offset-3" style="border-radius: 10px; border: 2px solid #727a82; color:#abb5c2; font-size:1.2em">
+                <br>
+                <p>PrtcMe is the...</p>
+
+                <p>...</p>
+
+                <p>...</p>
+
+                <p>Run by <a href="https://linkedin.com/in/luciabanjo" target="_blank">Lucia Banjo</a>.</p>
+
+                <p>We currently growing our mailing list, if you'd like to join please contact me at <a href="mailto:lucia@gmail.com">lucia@gmail.com</a>.</p>
+                <br>
+              </div>
+          </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <section id="contact" class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row">
+                        <div class="col-md-2 col-xs-6">
+                            <div>
+                              <a href="">
+                                <img height="105px" src="img/lucia-logo-white.png"/>
+                              </a>
+                            </div>
+                        </div>
+                        <!-- <div class="col-md-2 col-xs-6">
+                            <div>
+                              <a href="#about"><h4>About</h4></a>
+                            </div>
+                        </div> -->
+                        <div class="col-md-6">
+                        </div>
+                        <div class="col-md-2 col-xs-12 text-center">
+                            <div>
+                              <br><br><br><a style="color:#f0f0f0;font-size:1.2em;"href="mailto:lucia@gmail.com">lucia@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="scripts/bootstrap.min.js"></script>
+    <script src="scripts/portfolio.js"></script>
+    <script src="scripts/jquery.easing.min.js"></script>
+    <script src="scripts/scrolling-nav.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script>
+    // Closes the sidebar menu
+    $("#menu-close").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Opens the sidebar menu
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#sidebar-wrapper").toggleClass("active");
+    });
+    // Scrolls to the selected menu item on the page
+    $(function() {
+        $('a[href*=#]:not([href=#],[data-toggle],[data-target],[data-slide])').click(function() {
+            if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') || location.hostname == this.hostname) {
+                var target = $(this.hash);
+                target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                if (target.length) {
+                    $('html,body').animate({
+                        scrollTop: target.offset().top
+                    }, 1000);
+                    return false;
+                }
+            }
+        });
+    });
+    //#to-top button appears after scrolling
+    var fixed = false;
+    $(document).scroll(function() {
+        if ($(this).scrollTop() > 250) {
+            if (!fixed) {
+                fixed = true;
+                // $('#to-top').css({position:'fixed', display:'block'});
+                $('#to-top').show("slow", function() {
+                    $('#to-top').css({
+                        position: 'fixed',
+                        display: 'block'
+                    });
+                });
+            }
+        } else {
+            if (fixed) {
+                fixed = false;
+                $('#to-top').hide("slow", function() {
+                    $('#to-top').css({
+                        display: 'none'
+                    });
+                });
+            }
+        }
+    });
+    // Disable Google Maps scrolling
+    // See http://stackoverflow.com/a/25904582/1607849
+    // Disable scroll zooming and bind back the click event
+    var onMapMouseleaveHandler = function(event) {
+        var that = $(this);
+        that.on('click', onMapClickHandler);
+        that.off('mouseleave', onMapMouseleaveHandler);
+        that.find('iframe').css("pointer-events", "none");
+    }
+    var onMapClickHandler = function(event) {
+            var that = $(this);
+            // Disable the click handler until the user leaves the map area
+            that.off('click', onMapClickHandler);
+            // Enable scrolling zoom
+            that.find('iframe').css("pointer-events", "auto");
+            // Handle the mouse leave event
+            that.on('mouseleave', onMapMouseleaveHandler);
+        }
+        // Enable map zooming with mouse scroll when the user clicks the map
+    $('.map').on('click', onMapClickHandler);
+    </script>
+
+</body>
+
+</html>
